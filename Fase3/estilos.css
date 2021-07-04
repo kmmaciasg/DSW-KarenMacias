@@ -1,0 +1,89 @@
+
+
+.menu 
+{
+ left:32%;
+ list-style-type:none;
+ margin:0 auto;
+ padding:0;
+ position:relative;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;     
+}
+.menu a {
+    display: block;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: #191C26;
+    border-right: solid #000000;
+    border-width: 1px;
+    margin-left : 1;
+    border: 1px solid #CCC;
+    text-align:center
+}
+
+
+.menu a:hover {
+    background-color:rgb(128, 8, 122);
+   
+}
+.menu ul li ul {
+    
+    display: none;
+}
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+    
+}
+
+h1 {
+    text-align: center;
+    color:rgb(128, 8, 122)
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+   
+    color:rgb(128, 8, 122)
+}
+
+  img
+  {
+    margin: 10px auto 10px;
+    display: block;
+  }
+  .piepagina
+  {
+   left:20%;
+   list-style-type:none;
+   margin:0 auto;
+   padding:0;
+   position:relative;
+  }
+  .piepagina ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;     
+}
+  .piepagina a {
+    display: block;
+    padding: 5px;;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: #191C26;
+    border-right: solid #000000;
+    border-width: 1px;
+    margin-left : 0;
+    border: 1px solid rgb(154, 24, 240);
+    text-align:center
+} 
+ 
