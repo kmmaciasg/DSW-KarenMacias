@@ -51,6 +51,7 @@ h2 {
     text-align: center;
 }
 h3 {
+    margin: 30px;
    
     color:rgb(128, 8, 122)
 }
@@ -89,5 +90,13 @@ h3 {
  
 p {
     border: rgb(154, 24, 240) 2px solid;
-    margin: 20px;
+    margin: 30px;
+    text-align:center
+  }
+
+  body{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
