@@ -16,33 +16,58 @@
     </header> 
 
 
-    <nav class="menu">
-        <ul>
-          <li><a href="index.html">INICIO</a></li>
-          <li><a>TEMAS</a>
-            <ul>
-            <li><a href="tema1.html">Frameworks CSS</a></li>
-            <li><a href="tema2.html">Posicionamiento Web</a></li>
-            </ul>  
-          </li>
-          <li><a>RECURSOS</a>
-           <ul>
-            <li><a href="recurso1.html">Recurso 1</a></li>
-            <li><a href="recurso2.html">Recurso 2</a></li>
-           </ul>  
-          </li>
-          <li><a>APRENDIZAJE</a>
-            <ul>
-            <li><a href="actividad1.html">Actividad 1 </a></li>
-            <li><a href="actividad2.html">Actividad 2</a></li>
-            </ul>  
-         </li>
-          <li><a>ACERCA DE</a>
-           <ul>
-            <li><a href="autor.html">Autor</a></li>
-           </ul>  
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">INICIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                TEMAS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="tema1.html">Frameworks CSS</a></li>
+                <li><a class="dropdown-item" href="tema2.html">Posicionamiento Web</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                RECURSOS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="recurso1.html">Recurso 1</a></li>
+                <li><a class="dropdown-item" href="recurso2.html">Recurso 2</a></li>  
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                APRENDIZAJE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="actividad1.html">Actividad 1</a></li>
+                <li><a class="dropdown-item" href="actividad2.html">Actividad 2</a></li>  
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ACERCA DE 
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="autor.html">Autor</a></li> 
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
     </nav>
  
     
